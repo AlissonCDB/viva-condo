@@ -23,8 +23,10 @@ export default function Home() {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen">
-      <h1 className="text-2xl font-semibold">{obterSaudacao(null)}</h1>
+    <div className="flex flex-col items-center justify-center h-screen bg-black">
+      <div className="">
+        <p className="font-semibold bg-blue-900 rounded-md px-[8vw] py-[1vh]">{obterSaudacao(null)}</p>
+      </div>
     </div>
   );
 }
